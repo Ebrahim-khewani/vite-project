@@ -4,6 +4,6 @@ import dist from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:'/dist',
+  base:'vite-project/dist',
   plugins: [react()],
 })
